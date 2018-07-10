@@ -10,7 +10,7 @@ public class IndexController {
     @RequestMapping("/")
     @ResponseBody
     public String home() {
-        return "Welcome Home!";
+        return "welcome home sanitarium";
     }
 
     @RequestMapping("/about")
